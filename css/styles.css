@@ -1,16 +1,15 @@
-
-
 * {
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: sans-serif;
+    font-family: 'Optima';
     padding: 90px 20px 0;
     padding-top: 7%;
 }
 .header{
-    background-color: #076AF0;
+    background-color: #8a1a36;
     height: 12%;
     position: fixed;
     top: 0;
@@ -24,7 +23,7 @@ body{
     margin: 0 auto;
 }
 .nav-link{
-    color: white;
+    color: #c29591;
     text-decoration: none;
 }
 .logo {
@@ -39,7 +38,12 @@ body{
     margin-left: 40px;
     list-style: none;
 }
-
+.nav-left{
+    list-style: none;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .nav-menu-item{
     font-size: 18px;
     margin: 0 10px;
@@ -47,7 +51,8 @@ body{
 }
 
 .nav-menu-item:hover{
-    background-color: navy;
+    background-color: #c8b7a6;
+    color: #7d94b5;
     transition: 0.5s;
 }
 .nav-menu-item-link{
@@ -92,19 +97,22 @@ body{
     top: 12%;
     left: 0;
     height: 81%;
-    width: 20%;
-    background-color: #8e27f6;
+    width: 180px;
+    background-color: #8a1a36;
     color: black;
 }
 #contenido {
     position: absolute;
     top: 12%;
-    left: 20%;
+    left: 180px;
     height: 81%;
-    width: 80%;
-    background-color: #24a1df;
+    width: 100%-180px;
+    background-color: #f4d8ae;
     color: black;
     overflow: auto;
+}
+.contenido2{
+    padding: 10px;
 }
 #piePagina {
     position: absolute;
@@ -112,7 +120,7 @@ body{
     left: 0;
     height: 7%;
     width: 100%;
-    background-color: #87f29b;
+    background-color: #301008;
     color: black;
     text-align: center;
 }
