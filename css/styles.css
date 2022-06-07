@@ -97,16 +97,16 @@ body{
     top: 12%;
     left: 0;
     height: 81%;
-    width: 180px;
+    width: 15%;
     background-color: #8a1a36;
     color: black;
 }
 #contenido {
     position: absolute;
     top: 12%;
-    left: 180px;
+    left: 15%;
     height: 81%;
-    width: 100%-180px;
+    width: 85%;
     background-color: #f4d8ae;
     color: black;
     overflow: auto;
